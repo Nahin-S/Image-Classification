@@ -44,4 +44,4 @@ We leveraged **Transfer Learning** using the pre-trained **DenseNet121** as the 
   - **Precision**
   - **Recall**
   - **F1-Score**
-- The model achieved approximately **90% validation accuracy**, showing robust performance across all five flower categories.
+- The model achieved approximately **~89% accuracy**, showing robust performance across all five flower categories.
