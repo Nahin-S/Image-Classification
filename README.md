@@ -19,17 +19,17 @@ This project classifies flower images into 5 categories using transfer learning 
 - **Normalization**: Pixel values rescaled to the range `[0, 1]`
 
 ### 🔁 Data Augmentation (via Albumentations)
-Applied only to training data to improve generalization:
+Applied only to training data to improve generalization
 
 ## 🧠 Model Architecture
 
-We leveraged **Transfer Learning** using the pre-trained **DenseNet121** as the feature extractor, followed by a custom classification head tailored for 5-class flower classification.
+leveraged **Transfer Learning** using the pre-trained **DenseNet121** as the feature extractor, followed by a custom classification head tailored for 5-class flower classification.
 
 ### 🔧 Architecture Overview
 
 - **Base Model**: `DenseNet121` from Keras Applications
   - Pre-trained on **ImageNet**
-  - `include_top=False`: We removed the final classification layer
+  - `include_top=False`: removed the final classification layer
   - **Frozen** during training to preserve learned features
 
 
